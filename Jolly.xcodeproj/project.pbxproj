@@ -14,6 +14,7 @@
 		55C1A5762D88D12D00FC1184 /* JollyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C1A5752D88D12D00FC1184 /* JollyTests.swift */; };
 		55C1A5802D88D12D00FC1184 /* JollyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C1A57F2D88D12D00FC1184 /* JollyUITests.swift */; };
 		55C1A5822D88D12D00FC1184 /* JollyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C1A5812D88D12D00FC1184 /* JollyUITestsLaunchTests.swift */; };
+		55C1A5912D89DE3B00FC1184 /* PronounsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C1A5902D89DE3B00FC1184 /* PronounsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		55C1A57B2D88D12D00FC1184 /* JollyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JollyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C1A57F2D88D12D00FC1184 /* JollyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JollyUITests.swift; sourceTree = "<group>"; };
 		55C1A5812D88D12D00FC1184 /* JollyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JollyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55C1A5902D89DE3B00FC1184 /* PronounsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				55C1A5662D88D12B00FC1184 /* ContentView.swift */,
 				55C1A5682D88D12D00FC1184 /* Assets.xcassets */,
 				55C1A56A2D88D12D00FC1184 /* Preview Content */,
+				55C1A5902D89DE3B00FC1184 /* PronounsView.swift */,
 			);
 			path = Jolly;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C1A5912D89DE3B00FC1184 /* PronounsView.swift in Sources */,
 				55C1A5672D88D12B00FC1184 /* ContentView.swift in Sources */,
 				55C1A5652D88D12B00FC1184 /* JollyApp.swift in Sources */,
 			);
