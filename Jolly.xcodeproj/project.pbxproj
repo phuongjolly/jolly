@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36D3AED32D8B3F440054383E /* VirtualAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3AEC92D8B3F440054383E /* VirtualAI.framework */; };
+		36D3AEDE2D8B3F440054383E /* VirtualAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3AEC92D8B3F440054383E /* VirtualAI.framework */; };
+		36D3AEDF2D8B3F440054383E /* VirtualAI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3AEC92D8B3F440054383E /* VirtualAI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36D3AEF32D8B6DD40054383E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 36D3AEF22D8B6DCF0054383E /* .gitignore */; };
 		55C1A5652D88D12B00FC1184 /* JollyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C1A5642D88D12B00FC1184 /* JollyApp.swift */; };
 		55C1A5672D88D12B00FC1184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C1A5662D88D12B00FC1184 /* ContentView.swift */; };
 		55C1A5692D88D12D00FC1184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C1A5682D88D12D00FC1184 /* Assets.xcassets */; };
@@ -18,6 +22,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		36D3AED42D8B3F440054383E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C1A5592D88D12B00FC1184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D3AEC82D8B3F440054383E;
+			remoteInfo = VirtualAI;
+		};
+		36D3AED62D8B3F440054383E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C1A5592D88D12B00FC1184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C1A5602D88D12B00FC1184;
+			remoteInfo = Jolly;
+		};
+		36D3AEDC2D8B3F440054383E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C1A5592D88D12B00FC1184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D3AEC82D8B3F440054383E;
+			remoteInfo = VirtualAI;
+		};
 		55C1A5722D88D12D00FC1184 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55C1A5592D88D12B00FC1184 /* Project object */;
@@ -34,7 +59,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		36D3AEE02D8B3F440054383E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36D3AEDF2D8B3F440054383E /* VirtualAI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		36D3AEC92D8B3F440054383E /* VirtualAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VirtualAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D3AED22D8B3F440054383E /* VirtualAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D3AEF22D8B6DCF0054383E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		55C1A5612D88D12B00FC1184 /* Jolly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jolly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C1A5642D88D12B00FC1184 /* JollyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JollyApp.swift; sourceTree = "<group>"; };
 		55C1A5662D88D12B00FC1184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,11 +90,42 @@
 		55C1A5902D89DE3B00FC1184 /* PronounsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		36D3AEE52D8B3F440054383E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				VirtualAI.h,
+			);
+			target = 36D3AEC82D8B3F440054383E /* VirtualAI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		36D3AECA2D8B3F440054383E /* VirtualAI */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (36D3AEE52D8B3F440054383E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = VirtualAI; sourceTree = "<group>"; };
+		36D3AED82D8B3F440054383E /* VirtualAITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = VirtualAITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		36D3AEC62D8B3F440054383E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D3AECF2D8B3F440054383E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D3AED32D8B3F440054383E /* VirtualAI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		55C1A55E2D88D12B00FC1184 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D3AEDE2D8B3F440054383E /* VirtualAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +149,12 @@
 		55C1A5582D88D12B00FC1184 = {
 			isa = PBXGroup;
 			children = (
+				36D3AEF22D8B6DCF0054383E /* .gitignore */,
 				55C1A5632D88D12B00FC1184 /* Jolly */,
 				55C1A5742D88D12D00FC1184 /* JollyTests */,
 				55C1A57E2D88D12D00FC1184 /* JollyUITests */,
+				36D3AECA2D8B3F440054383E /* VirtualAI */,
+				36D3AED82D8B3F440054383E /* VirtualAITests */,
 				55C1A5622D88D12B00FC1184 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +165,8 @@
 				55C1A5612D88D12B00FC1184 /* Jolly.app */,
 				55C1A5712D88D12D00FC1184 /* JollyTests.xctest */,
 				55C1A57B2D88D12D00FC1184 /* JollyUITests.xctest */,
+				36D3AEC92D8B3F440054383E /* VirtualAI.framework */,
+				36D3AED22D8B3F440054383E /* VirtualAITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +210,64 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		36D3AEC42D8B3F440054383E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		36D3AEC82D8B3F440054383E /* VirtualAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D3AEE62D8B3F440054383E /* Build configuration list for PBXNativeTarget "VirtualAI" */;
+			buildPhases = (
+				36D3AEC42D8B3F440054383E /* Headers */,
+				36D3AEC52D8B3F440054383E /* Sources */,
+				36D3AEC62D8B3F440054383E /* Frameworks */,
+				36D3AEC72D8B3F440054383E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				36D3AECA2D8B3F440054383E /* VirtualAI */,
+			);
+			name = VirtualAI;
+			packageProductDependencies = (
+			);
+			productName = VirtualAI;
+			productReference = 36D3AEC92D8B3F440054383E /* VirtualAI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36D3AED12D8B3F440054383E /* VirtualAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D3AEE72D8B3F440054383E /* Build configuration list for PBXNativeTarget "VirtualAITests" */;
+			buildPhases = (
+				36D3AECE2D8B3F440054383E /* Sources */,
+				36D3AECF2D8B3F440054383E /* Frameworks */,
+				36D3AED02D8B3F440054383E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D3AED52D8B3F440054383E /* PBXTargetDependency */,
+				36D3AED72D8B3F440054383E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				36D3AED82D8B3F440054383E /* VirtualAITests */,
+			);
+			name = VirtualAITests;
+			packageProductDependencies = (
+			);
+			productName = VirtualAITests;
+			productReference = 36D3AED22D8B3F440054383E /* VirtualAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		55C1A5602D88D12B00FC1184 /* Jolly */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55C1A5852D88D12D00FC1184 /* Build configuration list for PBXNativeTarget "Jolly" */;
@@ -140,10 +275,12 @@
 				55C1A55D2D88D12B00FC1184 /* Sources */,
 				55C1A55E2D88D12B00FC1184 /* Frameworks */,
 				55C1A55F2D88D12B00FC1184 /* Resources */,
+				36D3AEE02D8B3F440054383E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				36D3AEDD2D8B3F440054383E /* PBXTargetDependency */,
 			);
 			name = Jolly;
 			productName = Jolly;
@@ -193,9 +330,16 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					36D3AEC82D8B3F440054383E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					36D3AED12D8B3F440054383E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 55C1A5602D88D12B00FC1184;
+					};
 					55C1A5602D88D12B00FC1184 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -225,11 +369,28 @@
 				55C1A5602D88D12B00FC1184 /* Jolly */,
 				55C1A5702D88D12D00FC1184 /* JollyTests */,
 				55C1A57A2D88D12D00FC1184 /* JollyUITests */,
+				36D3AEC82D8B3F440054383E /* VirtualAI */,
+				36D3AED12D8B3F440054383E /* VirtualAITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		36D3AEC72D8B3F440054383E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D3AEF32D8B6DD40054383E /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D3AED02D8B3F440054383E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		55C1A55F2D88D12B00FC1184 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +417,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		36D3AEC52D8B3F440054383E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D3AECE2D8B3F440054383E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		55C1A55D2D88D12B00FC1184 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,6 +461,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		36D3AED52D8B3F440054383E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D3AEC82D8B3F440054383E /* VirtualAI */;
+			targetProxy = 36D3AED42D8B3F440054383E /* PBXContainerItemProxy */;
+		};
+		36D3AED72D8B3F440054383E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C1A5602D88D12B00FC1184 /* Jolly */;
+			targetProxy = 36D3AED62D8B3F440054383E /* PBXContainerItemProxy */;
+		};
+		36D3AEDD2D8B3F440054383E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D3AEC82D8B3F440054383E /* VirtualAI */;
+			targetProxy = 36D3AEDC2D8B3F440054383E /* PBXContainerItemProxy */;
+		};
 		55C1A5732D88D12D00FC1184 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 55C1A5602D88D12B00FC1184 /* Jolly */;
@@ -299,6 +489,142 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		36D3AEE12D8B3F440054383E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.88technologies.VirtualAI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		36D3AEE22D8B3F440054383E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.88technologies.VirtualAI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		36D3AEE32D8B3F440054383E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = QL9Q47DN4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.88technologies.VirtualAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jolly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jolly";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		36D3AEE42D8B3F440054383E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = QL9Q47DN4Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.88technologies.VirtualAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jolly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jolly";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 		55C1A5832D88D12D00FC1184 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -477,7 +803,6 @@
 		55C1A5892D88D12D00FC1184 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -496,7 +821,6 @@
 		55C1A58A2D88D12D00FC1184 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -515,7 +839,6 @@
 		55C1A58C2D88D12D00FC1184 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -532,7 +855,6 @@
 		55C1A58D2D88D12D00FC1184 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -549,6 +871,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		36D3AEE62D8B3F440054383E /* Build configuration list for PBXNativeTarget "VirtualAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D3AEE12D8B3F440054383E /* Debug */,
+				36D3AEE22D8B3F440054383E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D3AEE72D8B3F440054383E /* Build configuration list for PBXNativeTarget "VirtualAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D3AEE32D8B3F440054383E /* Debug */,
+				36D3AEE42D8B3F440054383E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		55C1A55C2D88D12B00FC1184 /* Build configuration list for PBXProject "Jolly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
